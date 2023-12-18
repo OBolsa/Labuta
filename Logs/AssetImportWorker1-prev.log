@@ -1,0 +1,322 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 32654 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Program Files (x86)\Unity\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Projects/Labuta/Labuta
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53176
+Successfully changed project path to: E:/Projects/Labuta/Labuta
+E:/Projects/Labuta/Labuta
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22532] Host "[IP] 192.168.15.143 [Port] 0 [Flags] 2 [Guid] 1358969537 [EditorId] 1358969537 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6EQCUGU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22532] Host "[IP] 192.168.15.143 [Port] 0 [Flags] 2 [Guid] 1358969537 [EditorId] 1358969537 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6EQCUGU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projects/Labuta/Labuta/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2022.3.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005796 seconds.
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2219 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.464 seconds
+Domain Reload Profiling: 2762ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2464ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2306ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.502 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (483ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4916 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 5365.
+Memory consumption went from 204.7 MB to 203.9 MB.
+Total: 3.390500 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.578300 ms  DeleteObjects: 0.352600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (0.7 MB). Loaded Objects now: 5365.
+Memory consumption went from 106.7 MB to 106.0 MB.
+Total: 2.971100 ms (FindLiveObjects: 0.342600 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.254800 ms  DeleteObjects: 0.262900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17818.077968 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/facao_bainha_BaseMap.png
+  artifactKey: Guid(d046217c2172d1f46992a35db7a87206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/facao_bainha_BaseMap.png using Guid(d046217c2172d1f46992a35db7a87206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada04972edf88cbc50bdc7c207bec59') in 0.045789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_botas_BaseMap.png
+  artifactKey: Guid(551ebc63fb0582a41b85148565199cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_botas_BaseMap.png using Guid(551ebc63fb0582a41b85148565199cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304fbe53da9e89d8cc09643372b60820') in 0.009287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_relogio_BaseMap.png
+  artifactKey: Guid(b3c1641f7a581e94bb52e705b1852abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_relogio_BaseMap.png using Guid(b3c1641f7a581e94bb52e705b1852abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969a47ddab990bd524157c05ba783980') in 0.009362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_cinto detalhes_BaseMap.png
+  artifactKey: Guid(e572e4f58a0e1494a88e8a051b828b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_cinto detalhes_BaseMap.png using Guid(e572e4f58a0e1494a88e8a051b828b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b4d6a4f3b748a2a91f54c1b529471d') in 0.008334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/facao_lamina_BaseMap.png
+  artifactKey: Guid(a32cbecce89ae1d4998cf670baa5beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/facao_lamina_BaseMap.png using Guid(a32cbecce89ae1d4998cf670baa5beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6950697e43fb9b1efd94f65d9dd23db6') in 0.008132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_chapeu_BaseMap.png
+  artifactKey: Guid(127efc499fcb6014bbda94be37e8559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_chapeu_BaseMap.png using Guid(127efc499fcb6014bbda94be37e8559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a1507e1901d6c0ae5b01fecce0d618') in 0.011190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_bracos_BaseMap.png
+  artifactKey: Guid(7afdc27d99ef08343976fd324c0f37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_bracos_BaseMap.png using Guid(7afdc27d99ef08343976fd324c0f37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a439e4a884c742c4d01d04d1b9bdeeb') in 0.008523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_rosto_BaseMap.png
+  artifactKey: Guid(249a6d0085ae5d44ba2ffda88bff3edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_rosto_BaseMap.png using Guid(249a6d0085ae5d44ba2ffda88bff3edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4527f369395d44fc41a0d0b5fc3955c') in 0.007560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_cinto bolsa_BaseMap.png
+  artifactKey: Guid(a0f4b72e411af054691d578d5e9694fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_cinto bolsa_BaseMap.png using Guid(a0f4b72e411af054691d578d5e9694fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7698a5745929e7998dd94caea7dd56e5') in 0.007646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_cabelo_BaseMap.png
+  artifactKey: Guid(aec859d18f4d83046967d52902efa937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_cabelo_BaseMap.png using Guid(aec859d18f4d83046967d52902efa937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4af0da5cad275dc21579118483dadde') in 0.006841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_calca_BaseMap.png
+  artifactKey: Guid(c79e3eda48f967b4c8d1580169749bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_calca_BaseMap.png using Guid(c79e3eda48f967b4c8d1580169749bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7709ee77dcba2eef7a24a08b69498') in 0.008666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_camiseta detalhes_BaseMap.png
+  artifactKey: Guid(ed654922bb10ef84b9f6b9f2272a7455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_camiseta detalhes_BaseMap.png using Guid(ed654922bb10ef84b9f6b9f2272a7455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fed0f77bdbf30924cf8b017a6090ee') in 0.011548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_camisa_BaseMap.png
+  artifactKey: Guid(0fbd8e2dd7aaa5d45ba4c88200eeb71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Characters/Protagonista/10-12/Alan_Animações/protag corpo inteiro v1.1_camisa_BaseMap.png using Guid(0fbd8e2dd7aaa5d45ba4c88200eeb71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072adcda80bcf561ee33df5ba07acbf3') in 0.009848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A opera��o de E/S foi anulada devido a uma sa�da de thread ou a uma requisi��o de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
